@@ -9,7 +9,7 @@ Console.WriteLine("Введите координаты первой прямой
 double b1 = double.Parse(Console.ReadLine());
 Console.WriteLine("Введите координаты второй прямой, k2: ");
 double k2 = double.Parse(Console.ReadLine());
-Console.WriteLine("Введите координаты первой прямой, b2: ");
+Console.WriteLine("Введите координаты второй прямой, b2: ");
 double b2 = double.Parse(Console.ReadLine());
 GetPointOfIntersection(k1, b1, k2, b2);
 
